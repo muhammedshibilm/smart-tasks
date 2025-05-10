@@ -1,10 +1,10 @@
-import TaskList from "./TaskList";
+import TaskApp from "./TaskApp";
 
 function App() {
   return (
     <>
-      <div>
-        <TaskList />
+      <div className="App">
+         <TaskApp/>
       </div>
     </>
   );
