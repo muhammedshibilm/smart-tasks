@@ -3,9 +3,8 @@ import type { TaskItems } from "./types";
 import TaskForm from "./TaskForm";
 import TaskList from "./TaskList";
 
-interface TaskAppProps{
-   tasks: TaskItems[]
-}
+type TaskAppProps = object
+
 interface TaskAppState{
     tasks: TaskItems[];
 }
