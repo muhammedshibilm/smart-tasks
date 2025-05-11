@@ -10,7 +10,7 @@ interface TaskProps {
 class Task extends React.Component<TaskProps> {
   //pass the taskprops has a paramer
 
-  render(): React.ReactNode {
+  render(): React.ReactNode { 
     //render method is render everything on screen
 
     return (
