@@ -3,7 +3,9 @@ import type { TaskItems } from "./types";
 import TaskForm from "./TaskForm";
 import TaskList from "./TaskList";
 
-interface TaskAppProps{}
+interface TaskAppProps{
+   tasks: TaskItems[]
+}
 interface TaskAppState{
     tasks: TaskItems[];
 }
@@ -24,6 +26,7 @@ class TaskApp extends React.Component<TaskAppProps, TaskAppState>{
         return    (  <div className="container py-10 max-w-4xl mx-auto">
         <h1 className="text-3xl mb-2 font-bold text-slate-700">
           Smarter Tasks
+          
         </h1>
         <h1 className="text-lg mb-6 text-slate-600">
           <span className="font-bold">Project: </span>
